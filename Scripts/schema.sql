@@ -1,0 +1,11 @@
+CREATE DATABASE comments;
+
+USE comments;
+
+CREATE TABLE `COMMENTS` (
+	id int AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(255),
+	surname VARCHAR(255),
+	comments TEXT,
+	date TIMESTAMP
+);
